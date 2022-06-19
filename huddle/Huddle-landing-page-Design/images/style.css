@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbutton{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    width: 190px;
+    align-items: center;
+    margin: 80px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.firstbackground{
+    background-color: hsl(193, 100%, 96%);
+    background-image: url('./bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    padding: 36px 59px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+.herobtn{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 1em;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.15);
+}
+.hero .herotext{
+    flex: 1;
+}
+.herotext p{
+    margin: 25px 0;
+}
+.herotext h1{
+    font-family: "Poppins", sans-serif;
+}
+.hero .heroimg{
+    flex: 1;
+}
+.rep{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+.grow{
+    display: flex;
+    background-color: #fff;
+    margin: 40px 0;
+    align-items: center;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.grow img{
+    width: 80%;
+}
+.grow .growtext{
+    flex: 1;
+}
+.growtext p{
+    margin: 25px 0;
+}
+.grow .growimg{
+    flex: 1;
+}
+.grow h2{
+    font-family: "Poppins", sans-serif;
+}
+.flowing{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding: 60px;
+    border-radius: 15px;
+    margin: 40px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.flowing img{
+    width: 80%;
+}
+.flowing .flowingtext{
+    flex: 1;
+}
+.flowingtext p{
+    margin: 25px 0;
+}
+.flowingtext h2{
+    font-family: "Poppins", sans-serif;
+}
+.flowing .flowingimg{
+    flex: 1;
+}
+.flowingimg img{
+    width: 100%;
+}
+.user{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin: 40px 0;
+}
+.user img{
+    width: 80%;
+}
+.usertexth2{
+    font-family: "Poppins", sans-serif;
+}
+.user .usertext{
+    flex: 1;
+}
+.usertext p{
+    margin: 25px 0;
+}
+.user .userimg{
+    flex: 1;
+}
+.userimg img{
+    width: 100%;
+}
+.build{
+    background-color: white;
+    border: 10px transparent;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: -50%;
+}
+footer{
+    background-color:hsl(192, 100%, 9%);
+    padding: 180px 0 60px;
+    color: #fff;
+}
+.contact{
+    display: flex;
+}
+.heroimg img{ 
+    width: 100%;
+}
+.growimg img{
+    width: 100%;
+}
+.buildbutton{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1.5em;
+    width: 220px;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    margin-left: 50px;
+}
+body{
+    position: relative;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+}
+.build{
+    margin-left: 400px;
+    position: absolute;
+    padding: 2em;
+    bottom: -10;
+    text-align: center;
+}
+.build h2{
+    font-family: "Poppins", sans-serif;
+    
+}
+.footerlogo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-bottom: 20px;
+}
+footer .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+footer .app{
+    border: 1px solid#fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+p{
+    opacity: 0.6;
+}
+.copy{
+    text-align: right;
+    margin: 20px;
+}
+.contact{
+    margin: 20px;
+}
+@media screen and (max-width:768px) {
+    body{
+        text-align: center;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .heroimg{
+        margin-top: 40px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .social{
+        flex-direction: column;
+    }
+    .grow{
+        flex-direction: column;
+    }
+    .user{
+        flex-direction: column;
+    }
+    .flowing{
+        flex-direction: column;
+    }
+    footer ul{
+        padding: 0;
+        width: 100%;
+    }
+    .copy{
+        text-align: center;
+    }
+    footer p{
+        text-align: center;
+    }
+}
