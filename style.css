@@ -267,4 +267,8 @@ p{
     .contact{
         flex-direction:column;
     }
+    .build{
+        align-items: center;
+        justify-content: center;
+    }
 }
