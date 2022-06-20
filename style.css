@@ -175,9 +175,12 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.15em;
 }
-.address{
+.location{
     margin: 10px;
     padding: 50px;
+}
+.sub{
+    margin:10px;
 }
 .build{
     align-items: center;
