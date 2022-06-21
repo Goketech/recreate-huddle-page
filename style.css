@@ -148,13 +148,13 @@ nav{
     padding: 3em;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    width:65%;
-    flex-direction:column;
-    align-self:center;
-    justify-self:flex-end;
-    margin-bottom:0;
-    z-index:1;
-    bottom:-4.5em;
+    width: 65%;
+    flex-direction: column;
+    align-self: center;
+    justify-self: flex-end;
+    margin-bottom: 0;
+    z-index: 1;
+    bottom: -4.5em;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
@@ -189,13 +189,13 @@ body{
     font-size: 1.15em;
 }
 .location{
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 .tel{
-    margin-bottom:2px;
+    margin-bottom: 2px;
 }
 .email{
-    margin:10px;
+    margin:2px;
 }
 span{
     margin: 2px;
