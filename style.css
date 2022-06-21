@@ -151,10 +151,12 @@ nav{
     width: 65%;
     flex-direction: column;
     align-self: center;
-    justify-self: flex-end;
     margin-bottom: 0;
     z-index: 1;
     bottom: -4.5em;
+}
+body .build{
+    justify-self: flex-end;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
