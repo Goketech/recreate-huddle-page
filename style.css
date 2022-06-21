@@ -141,7 +141,8 @@ nav{
     border: 10px transparent;
     position: absolute
     top: 20px;
-    bottom;-20px;
+    bottom;
+    margin-bottom:-100px;
     text-align:center;
     align-items:center;
 }
