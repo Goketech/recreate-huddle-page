@@ -155,9 +155,6 @@ nav{
     z-index: 1;
     bottom: -4.5em;
 }
-body .build{
-    justify-self: flex-end;
-}
 footer{
     background-color:hsl(192, 100%, 9%);
     padding: 180px 0 60px;
