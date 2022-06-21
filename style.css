@@ -142,8 +142,9 @@ nav{
     position: relative;
     z-index: 1;
     display: inline-block;
-    margin-bottom: -50%;
+    margin-bottom: 10px;
     align-items:center;
+    bottom: 20px;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
