@@ -154,6 +154,7 @@ nav{
     margin-bottom: 0;
     z-index: 1;
     bottom: -4.5em;
+    justify-content: flex-start;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
