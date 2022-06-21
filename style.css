@@ -149,6 +149,7 @@ nav{
     margin-bottom:-100px;
     text-align:center;
     align-items:center;
+    padding:2em;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
@@ -183,16 +184,13 @@ body{
     font-size: 1.15em;
 }
 .location{
-    margin: 5px;
-    padding: 5px;
+    margin-bottom: 5px;
 }
 .tel{
-    margin:2px;
-    padding:50px;
+    margin-bottom:2px;
 }
 .email{
     margin:10px;
-    padding:20px;
 }
 span{
     margin: 2px;
@@ -234,6 +232,7 @@ footer .app{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-left: 15px;
     margin-right: 10px;
     height: 40px;
     width: 40px;
