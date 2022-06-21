@@ -143,6 +143,7 @@ nav{
     z-index: 1;
     display: inline-block;
     margin-bottom: -50%;
+    align-items:center;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
@@ -167,7 +168,8 @@ footer{
     border: none;
     border-radius: 25px;
     margin: 10px;
-    margin-left: 50px;
+    justify-content: center;
+    align-items:center;
 }
 body{
     position: relative;
