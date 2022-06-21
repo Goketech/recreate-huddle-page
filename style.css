@@ -139,10 +139,11 @@ nav{
 .build{
     background-color: white;
     border: 10px transparent;
-    position: absolute;
-    margin-bottom: 10px;
+    position: absolute
+    top: 20px;
+    bottom;-20px;
+    text-align:center;
     align-items:center;
-    bottom: -20px;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
@@ -180,16 +181,17 @@ body{
     margin: 10px;
     padding: 50px;
 }
+.tel{
+    margin:10px;
+    padding:50px;
+}
+.email{
+    margin:10px;
+    padding:50px;
+}
 .sub{
     margin:10px;
 }
-/*.build{
-    align-items: center;
-    position: absolute;
-    padding: 2em;
-    bottom: -10;
-    text-align: center;
-}*/
 .build h2{
     font-family: "Poppins", sans-serif;
     
