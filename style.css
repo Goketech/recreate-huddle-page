@@ -139,7 +139,7 @@ nav{
 .build{
     background-color: white;
     border: 10px transparent;
-    position: fixed;
+    position: absolute;
     margin-bottom: 10px;
     align-items:center;
     bottom: -20px;
@@ -183,13 +183,13 @@ body{
 .sub{
     margin:10px;
 }
-.build{
+/*.build{
     align-items: center;
     position: absolute;
     padding: 2em;
     bottom: -10;
     text-align: center;
-}
+}*/
 .build h2{
     font-family: "Poppins", sans-serif;
     
