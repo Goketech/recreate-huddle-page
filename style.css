@@ -139,7 +139,7 @@ nav{
 .build{
     background-color: white;
     border: 10px transparent;
-    position: relative;
+    position: fixed;
     margin-bottom: 10px;
     align-items:center;
     bottom: -20px;
