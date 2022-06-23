@@ -141,7 +141,7 @@ nav{
     margin-left: 50px;
 }
 .build{
-    position: absolute;
+    position: relative;
     display: flex;
     background-color: #fff;
     align-items: center;
@@ -154,6 +154,7 @@ nav{
     margin-bottom: 0;
     z-index: 1;
     bottom: -4.5em;
+    text-align: center;
     flex: 1;
 }
 footer{
