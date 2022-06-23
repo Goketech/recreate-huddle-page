@@ -152,9 +152,9 @@ nav{
     flex-direction: column;
     align-self: center;
     margin-bottom: 0;
-    z-index: -1;
-    bottom: -6.5em;
-    justify-content: flex-end;
+    z-index: 1;
+    bottom: -4.5em;
+    flex: 1;
 }
 footer{
     background-color:hsl(192, 100%, 9%);
