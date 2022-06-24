@@ -146,6 +146,7 @@ nav{
     background-color: #fff;
     align-items: center;
     padding: 3em;
+    justify-content: center;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     width: 65%;
